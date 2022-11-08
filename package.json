@@ -1,0 +1,16 @@
+{
+  "name": "tickethack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "node generateTrips.js"
+  },
+  "dependencies": {
+    "moment": "^2.29.3",
+    "moment-random": "^1.1.0"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/gwen-guerin/tickethack.git",
+  "author": "Gwen Guérin <gwenael.guerin@protonmail.com>",
+  "license": "MIT"
+}

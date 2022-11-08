@@ -4,7 +4,7 @@ var router = express.Router();
 var trip = require("../trips.json")
 const moment = require("moment")
 
-router.get('/', (req, res) => {
+router.post('/', (req, res) => {
 
     const wantedDate = new Date(req.body.date)
     const formatedWantedDate = moment(wantedDate).format("DD-MM-YYYY")

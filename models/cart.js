@@ -2,8 +2,8 @@ const mongoose = require('mongoose')
 
 const cartSchema = mongoose.Schema({
     trip : String,
-    date : Date,
-    price: Number
+    date : String,
+    price: String
 })
 
 module.exports = mongoose.model('carts' , cartSchema)

@@ -23,6 +23,7 @@ router.post('/', (req, res) => {
 });
 
 router.post('/cart', (req, res) => {
+  console.log("body",req.body);
   const { trip, date, price } = req.body;
 
   const newCart = new Carts({
